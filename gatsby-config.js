@@ -1,15 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Underserved Dropout`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Underserved Dropout`,
+      summary: `(The Ultimate Source Of Truth)`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `All things underserved`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
-    social: {
-      twitter: `kylemathews`,
-    },
+    
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -115,7 +113,7 @@ module.exports = {
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/underservedlogo.png`, // This path is relative to the root of the site.
       },
     },
   ],
